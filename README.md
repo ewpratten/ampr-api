@@ -6,12 +6,4 @@
 [![Audit](https://github.com/Ewpratten/ampr-api/actions/workflows/audit.yml/badge.svg)](https://github.com/Ewpratten/ampr-api/actions/workflows/audit.yml)
 
 
-repo description
-
-## Installation
-
-This crate can be installed via `cargo` with:
-
-```sh
-cargo install ampr-api
-```
+`ampr-api` is a rust library for interacting with the [44net API](https://portal.ampr.org/api.php).
