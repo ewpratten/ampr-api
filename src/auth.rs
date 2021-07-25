@@ -1,4 +1,7 @@
+use serde::{Deserialize, Serialize};
+
 /// An Auth token used for all requests to the AMPR API.
+#[derive(Deserialize, Serialize, Debug, Clone, PartialEq)]
 pub struct Auth {
     /// User's callsign
     pub(crate) callsign: String,
